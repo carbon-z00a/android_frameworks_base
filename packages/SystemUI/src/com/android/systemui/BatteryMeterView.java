@@ -896,6 +896,7 @@ public class BatteryMeterView extends View implements DemoMode,
                                     mBoltFrame.left + mBoltPoints[i] * mBoltFrame.width(),
                                     mBoltFrame.top + mBoltPoints[i + 1] * mBoltFrame.height());
                         }
+                        mBoltPath.lineTo(
                                 mBoltFrame.left + mBoltPoints[0] * mBoltFrame.width(),
                                 mBoltFrame.top + mBoltPoints[1] * mBoltFrame.height());
                     }
