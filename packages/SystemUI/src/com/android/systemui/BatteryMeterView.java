@@ -1118,7 +1118,7 @@ public class BatteryMeterView extends View implements DemoMode,
             if (unknownStatus) {
                 canvas.drawText("?", textX, mTextY, mTextPaint);
             } else if (fastCharging) {
-                mFastChargingPaint.setColor(getColorForLevel(level));
+                //not needed? mFastChargingPaint.setColor(getColorForLevel(level));
                 canvas.drawText("+", textX, mTextY, mFastChargingPaint);
             } else if (tracker.shouldIndicateCharging()
                     && (!mShowPercent || mChargeAnimDisabled)) {
