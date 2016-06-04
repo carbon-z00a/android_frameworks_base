@@ -140,4 +140,7 @@
   <java-symbol type="string" name="floating_window_snap_left"/>
   <java-symbol type="string" name="floating_window_snap_right"/>
   <java-symbol type="string" name="floating_window_minimize"/>
+
+  <!-- Wifi idle time default -->
+  <java-symbol type="integer" name="def_wifi_idle_ms" />
 </resources>
